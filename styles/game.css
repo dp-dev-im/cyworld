@@ -62,7 +62,7 @@ body {
   width: 222px;
   height: 168px;
   background-color: #f6f6f6;
-  border: 1px solid blue;
+  border: 1px solid gray;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ body {
   width: 222px;
   height: 168px;
   background-color: #f6f6f6;
-  border: 1px solid blue;
+  border: 1px solid gray;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -130,6 +130,7 @@ body {
   border-radius: 5px;
   padding: 2px 5px;
   background-color: yellow;
+
 }
 
 .number {
@@ -143,4 +144,6 @@ body {
   border-radius: 5px;
   border: 1px solid black;
   width: 80px;
+  font-size: 11px;
+  font-weight: 700;
 }

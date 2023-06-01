@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>game</title>
     <link href="./styles/game.css" rel="stylesheet">
+    <script src="./javascript/game.js"></script>
 </head>
 
 <body>
@@ -22,11 +23,11 @@
             <img src="./images/word.png">
             <div class="title__box">
                 <div class="game__title">끝말 잇기</div>
-                <div class="game__subtitle">제시어: <span id="word">단어</span></div>
+                <div class="game__subtitle">제시어: <span id="word">word</span></div>
             </div>
             <div class="word__text">
-                <input class="textBox" id="myWord" placeholder="word">
-                <button class="search">button</button>
+                <input class="textBox" id="inputWord" placeholder="word">
+                <button class="search" onclick="startWord()">button</button>
             </div>
             <div class="wordResult" id="result">RESULT</div>
         </div>
@@ -38,9 +39,10 @@
             </div>
             <div class="lottoBox">
                 <div class="lotto__number">
-                    <span class="number">1 2 3 4 5 6</span>
+                    <span id="randomNumber" class="number">1 2 3 4 5 6</span>
                 </div>
-                <button class="lotto__button">BUTTON</button>
+                <div id="timer">3min 00sec</div>
+                <button onclick="onClick()" id="disabled" class="lotto__button">BUTTON</button>
             </div>
 
         </div>
