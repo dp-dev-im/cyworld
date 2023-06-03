@@ -79,7 +79,7 @@
 .profile__detail {
   display: flex;
   flex-direction: row;
-  font-family: 'Malgun Gothic';
+  font-family: "Malgun Gothic";
   font-size: 9px;
   /* background-color: black; */
 }
@@ -149,6 +149,26 @@ iframe {
 }
 
 .navigation {
-  width: 62px;
+  width: 78px;
   height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 800px;
+  top: 110px;
+}
+
+.navigation__item {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  background-color: #298eb5;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
 }

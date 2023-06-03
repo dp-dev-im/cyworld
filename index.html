@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>싸이월드</title>
     <link href="./styles/index.css" rel="stylesheet">
+    <script src="./javascript/index.js"></script>
 </head>
 
 <body>
@@ -65,15 +66,15 @@
                         </div>
                     </div>
                     <div class="wrapper__right__body">
-                        <!-- <iframe src="./home.html"></iframe> -->
+                        <iframe id="contentFrame" src="./home.html"></iframe>
                         <!-- <iframe src="./game.html"></iframe> -->
-                        <iframe src="./jukebox.html"></iframe>
+                        <!-- <iframe id="contentFrame" src="./jukebox.html"></iframe> -->
                     </div>
                 </div>
                 <div class="navigation">
-                    <div class="navigation__item" id="menuHome">HOME</div>
-                    <div class="navigation__item" id="menuGame">GAME</div>
-                    <div class="navigation__item" id="menuJukebox">JUKEBOX</div>
+                    <div class="navigation__item" id="menuHome" onclick="menuHome()">HOME</div>
+                    <div class="navigation__item" id="menuGame" onclick="menuGame()">GAME</div>
+                    <div class="navigation__item" id="menuJukebox" onclick="menuJukebox()">JUKEBOX</div>
                     <!-- <div class="navigation__item" id="menuJukebox">ORANGE 🍊</div> -->
                 </div>
             </div>
